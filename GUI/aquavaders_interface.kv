@@ -6,12 +6,15 @@ FloatLayout:
         text: "Button Test"
         md_bg_color: 151/255, 0, 0, 1 #background
         text_color: 1,1,1, 1
-        pos_hint: {"center_x": .15, "center_y": .15}
+        pos_hint: {"center_x": .15, "center_y": .75}
+        on_press: app.lunch(*args)
 
-    Camera:
-        id: camera
-        index: 0
-        #resolution: (320, 240)
-        play: True
-        #pos_hint: {"center_x": .15, "center_y": .15}
-        halign: "center"
+
+
+    #Camera:
+    #    id: camera
+    #    index: 0
+    #    #resolution: (320, 240)
+    #    play: True
+    #    #pos_hint: {"center_x": .15, "center_y": .15}
+    #    halign: "center"
